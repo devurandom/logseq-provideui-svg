@@ -1,0 +1,21 @@
+{
+  "name": "logseq-provideui-svg",
+  "version": "0.0.1",
+  "private": true,
+  "main": "public/index.html",
+  "author": "Dennis Schridde",
+  "license": "MIT",
+  "dependencies": {
+    "@logseq/libs": "^0.0.15"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.23.3"
+  },
+  "logseq": {
+    "id": "_32hd8123"
+  },
+  "scripts": {
+    "watch": "npx shadow-cljs watch app",
+    "release": "npx shadow-cljs release app"
+  }
+}
